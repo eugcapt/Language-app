@@ -23,6 +23,7 @@ namespace Лангуаге
         public ClientsPage()
         {
             InitializeComponent();
+            MainDataGrid.ItemsSource = user2Entities.GetContext().Client.ToList();
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
