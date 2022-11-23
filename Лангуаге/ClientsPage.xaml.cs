@@ -30,5 +30,15 @@ namespace Лангуаге
         {
             NavigationService.Navigate(new AddEditPage());
         }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AddEditPage());
+        }
+
+        private void DelButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

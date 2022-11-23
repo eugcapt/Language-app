@@ -23,6 +23,12 @@ namespace Лангуаге
         public AddEditPage()
         {
             InitializeComponent();
+            GenderComboBox.ItemsSource = user2Entities.GetContext().Gender.ToList();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
